@@ -1,0 +1,9 @@
+# ============================================
+# PERINTAH RESTORE TERMUX HERIKEYZENLOCKER
+# ============================================
+
+# 1. Jika folder /sdcard/termux_backup SUDAH ADA (pernah clone)
+cd /sdcard/termux_backup && bash restore.sh
+
+# 2. Jika folder BELUM ADA atau mau clone ulang
+git clone https://github.com/HeriKeyzenlocker/Terminal-herikeyzenlocker.git /sdcard/termux_backup && cd /sdcard/termux_backup && bash restore.sh
