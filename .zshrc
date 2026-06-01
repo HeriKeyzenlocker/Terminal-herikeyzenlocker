@@ -59,6 +59,7 @@ show_full() {
     echo -e "\e[1;31m════════════════════════════════════════════════════════\e[0m"
     echo ""
     sleep 2
+
     matrix_rain
     command clear
     show_banner
